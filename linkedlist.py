@@ -86,21 +86,46 @@ class LinkedList:
                 prev.next = temp.next
                 temp = None
 
+    # Deletes the node at position in zero-indexed list
+    def deleteAt(self, position):
+        if position < 0 or self.head is None:
+            return
+        if position == 0:
+            temp = self.head
+            self.head = temp.next
+            temp = None
+        else:
+            prev = self.head
+            temp = prev.next
+            count = 1
+            while temp is not None:
+                if count == position:
+                    break
+                prev = temp
+                temp = temp.next
+                count += 1
+            if temp is not None:
+                prev.next = temp.next
+                temp = None
 
 a = LinkedList()
 a.push(1)
 a.append(2)
 a.append(3)
 a.printList()
-a.deleteKey(1)
+a.deleteAt(-1)
+a.printList()
+a.deleteAt(0)
 a.printList()
 a.push(1)
 a.printList()
-a.deleteKey(3)
+a.deleteAt(2)
 a.printList()
 a.append(3)
 a.printList()
-a.deleteKey(2)
+a.deleteAt(1)
 a.printList()
 a.insertAfter(a.head, 2)
+a.printList()
+a.deleteAt(3)
 a.printList()
