@@ -30,4 +30,29 @@ class Node:
 
 class LinkedList:
     def __init__(self):
-        self.head = None    
+        self.head = None
+
+    # Inserts new node at the head of the list
+    def push(self, data):
+        newNode = Node(data)
+        newNode.next = self.head
+        self.head = newNode
+
+    # Inserts new node at the end of the list
+    def append(self, data):
+        newNode = Node(data)
+        if self.head is None:
+            self.head = newNode
+        else:
+            last = self.head
+            while last.next is not None:
+                last = last.next
+            last.next = newNode
+
+    # Inserts a new node after prevNode
+    def insertAfter(self, prevNode, data):
+        if prevNode is None:
+            return
+        newNode = Node(data)
+        newNode.next = prevNode.next
+        prevNode.next = newNode
