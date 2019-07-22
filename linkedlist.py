@@ -56,3 +56,17 @@ class LinkedList:
         newNode = Node(data)
         newNode.next = prevNode.next
         prevNode.next = newNode
+
+    # Does not work if the linked list has loop
+    def printList(self):
+        print "head ->",
+        current = self.head
+        while current is not None:
+            print str(current.data) + " ->",
+            current = current.next
+        print "null"
+
+a = LinkedList()
+a.push(1)
+a.append(2)
+a.printList()
