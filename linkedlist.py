@@ -108,24 +108,15 @@ class LinkedList:
                 prev.next = temp.next
                 temp = None
 
+    # delete all nodes in the list
+    def delete(self):
+        while self.head is not None:
+            self.deleteAt(0)
+
 a = LinkedList()
 a.push(1)
 a.append(2)
 a.append(3)
 a.printList()
-a.deleteAt(-1)
-a.printList()
-a.deleteAt(0)
-a.printList()
-a.push(1)
-a.printList()
-a.deleteAt(2)
-a.printList()
-a.append(3)
-a.printList()
-a.deleteAt(1)
-a.printList()
-a.insertAfter(a.head, 2)
-a.printList()
-a.deleteAt(3)
+a.delete()
 a.printList()
