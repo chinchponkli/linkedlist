@@ -10,6 +10,7 @@ LinkedLists and related Algorithmic Problems in Python
 6. [Delete All Nodes]
 7. [Size of Linked List]
 8. [Search in Linked List]
+9. [Get Nth Node in a Linked List]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -19,3 +20,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Delete All Nodes]: https://github.com/chinchponkli/linkedlist/blob/378823a26c60fd052483717da0d86a0b3fff079a/linkedlist.py
 [Size of Linked List]: https://github.com/chinchponkli/linkedlist/blob/619a1f76a4fe5a039ee84fb28a96fc8ef4d58c03/linkedlist.py
 [Search in Linked List]: https://github.com/chinchponkli/linkedlist/blob/master/search.py
+[Get Nth Node in a Linked List]: https://github.com/chinchponkli/linkedlist/blob/master/getNth.py
