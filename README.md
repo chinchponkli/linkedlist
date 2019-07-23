@@ -13,6 +13,7 @@ LinkedLists and related Algorithmic Problems in Python
 9. [Get Nth Node in a Linked List]
 10. [Get Nth Node from End]
 11. [Find Middle Node]
+12. [Number of times a key occurs in Linked List]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -25,3 +26,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Get Nth Node in a Linked List]: https://github.com/chinchponkli/linkedlist/blob/master/getNth.py
 [Get Nth Node from End]: https://github.com/chinchponkli/linkedlist/blob/master/getNthFromEnd.py
 [Find Middle Node]: https://github.com/chinchponkli/linkedlist/blob/master/findMiddle.py
+[Number of times a key occurs in Linked List]: https://github.com/chinchponkli/linkedlist/blob/master/frequency.py
