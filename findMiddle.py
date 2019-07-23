@@ -10,7 +10,7 @@ from linkedlist import LinkedList
 
 def findMiddle(node):
     fast, slow = node, node
-    while fast and fast.next:
+    while fast is not None and fast.next is not None:
         fast = fast.next.next
         slow = slow.next
     return slow
