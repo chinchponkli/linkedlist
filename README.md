@@ -1,4 +1,4 @@
-# Linkedlist
+# Linked List
 
 LinkedLists and related Algorithmic Problems in Python
 
