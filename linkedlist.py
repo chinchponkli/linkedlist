@@ -113,10 +113,17 @@ class LinkedList:
         while self.head is not None:
             self.deleteAt(0)
 
+    def size(self):
+        count = 0
+        current = self.head
+        while current is not None:
+            count += 1
+            current = current.next
+        return count
+
 a = LinkedList()
 a.push(1)
 a.append(2)
 a.append(3)
 a.printList()
-a.delete()
-a.printList()
+print("Size of the list is: " + str(a.size()))
