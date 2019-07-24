@@ -43,3 +43,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Pairwise swap elements in a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/pairwiseswapelements.py
 [Print reverse of a list]: https://github.com/chinchponkli/linkedlist/blob/3e2ccd9ee74f91737117b04acd24024b6b93af27/linkedlist.py
 [Swap nodes by changing links]: https://github.com/chinchponkli/linkedlist/blob/master/swapNodes.py
+[Move last node to front in a linked list and vice versa]: https://github.com/chinchponkli/linkedlist/blob/master/movelasttofirstandviceversa.py
