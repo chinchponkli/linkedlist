@@ -23,6 +23,7 @@ LinkedLists and related Algorithmic Problems in Python
 19. [Pairwise swap elements in a linked list]
 20. [Swap nodes by changing links]
 21. [Move last node to front in a linked list and vice versa]
+22. [Check is two linked list intersects at some common node]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -45,3 +46,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Print reverse of a list]: https://github.com/chinchponkli/linkedlist/blob/3e2ccd9ee74f91737117b04acd24024b6b93af27/linkedlist.py
 [Swap nodes by changing links]: https://github.com/chinchponkli/linkedlist/blob/master/swapNodes.py
 [Move last node to front in a linked list and vice versa]: https://github.com/chinchponkli/linkedlist/blob/master/movelasttofirstandviceversa.py
+[Check is two linked list intersects at some common node]: https://github.com/chinchponkli/linkedlist/blob/master/checkIfTwoLinkedListIntersects.py
