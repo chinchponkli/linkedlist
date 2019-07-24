@@ -34,6 +34,10 @@ def checkPalindromeStackBased(node):
     return True
 
 l = LinkedList()
+print checkPalindromeStackBased(l.head)
 l.append(1)
+print checkPalindromeStackBased(l.head)
 l.append(2)
+l.append(2)
+l.append(1)
 print checkPalindromeStackBased(l.head)
