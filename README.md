@@ -22,6 +22,7 @@ LinkedLists and related Algorithmic Problems in Python
 18. [Remove duplicate nodes from an unsorted list]
 19. [Pairwise swap elements in a linked list]
 20. [Swap nodes by changing links]
+21. [Move last node to front in a linked list and vice versa]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
