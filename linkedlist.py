@@ -131,9 +131,3 @@ class LinkedList:
             self.printReverseUtil(node.next)
             print "<-",
             print node.data,
-
-l = LinkedList()
-l.append(1)
-l.append(2)
-l.append(3)
-l.printReverse()
