@@ -120,3 +120,17 @@ class LinkedList:
             count += 1
             current = current.next
         return count
+
+    def printReverse(self):
+        print "null",
+        self.printReverseUtil(self.head)
+        print "<- head"
+
+    def printReverseUtil(self, node):
+        if node is not None:
+            self.printReverseUtil(node.next)
+            print "<-",
+            print node.data,
+
+l = LinkedList()
+l.printReverse()
