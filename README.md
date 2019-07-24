@@ -19,6 +19,7 @@ LinkedLists and related Algorithmic Problems in Python
 15. [Check if Linked List is palindrome - Stack Based solution]
 16. [Remove duplicate nodes from a sorted list]
 17. [Remove duplicate nodes from an unsorted list]
+18. [Pairwise swap elements in a linked list]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -37,3 +38,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Check if Linked List is palindrome - Stack Based solution]: https://github.com/chinchponkli/linkedlist/blob/5e5bdeab4fe5bf9753dcbf9eb14a33c24d2a66e3/checkPalindrome.py
 [Remove duplicate nodes from a sorted list]: https://github.com/chinchponkli/linkedlist/blob/master/removeDuplicatesFromSorted.py
 [Remove duplicate nodes from an unsorted list]: https://github.com/chinchponkli/linkedlist/blob/master/removeDuplicatesFromUnsorted.py
+[Pairwise swap elements in a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/pairwiseswapelements.py
