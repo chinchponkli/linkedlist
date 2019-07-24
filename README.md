@@ -24,6 +24,7 @@ LinkedLists and related Algorithmic Problems in Python
 20. [Swap nodes by changing links]
 21. [Move last node to front in a linked list and vice versa]
 22. [Check is two linked list intersects at some common node]
+23. [Find intersection point of two linked list - Difference in length based solution]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -47,3 +48,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Swap nodes by changing links]: https://github.com/chinchponkli/linkedlist/blob/master/swapNodes.py
 [Move last node to front in a linked list and vice versa]: https://github.com/chinchponkli/linkedlist/blob/master/movelasttofirstandviceversa.py
 [Check is two linked list intersects at some common node]: https://github.com/chinchponkli/linkedlist/blob/master/checkIfTwoLinkedListIntersects.py
+[Find intersection point of two linked list - Difference in length based solution]: https://github.com/chinchponkli/linkedlist/blob/1d1fe7a53ce2a7a9d45f47388259166bc0990603/findIntersectionNode.py
