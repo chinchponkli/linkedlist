@@ -9,17 +9,18 @@ LinkedLists and related Algorithmic Problems in Python
 5. [Delete Node - At a given index assuming list to be 0-indexed]
 6. [Delete All Nodes]
 7. [Size of Linked List]
-8. [Search in Linked List]
-9. [Get Nth Node in a Linked List]
-10. [Get Nth Node from End]
-11. [Find Middle Node]
-12. [Number of times a key occurs in Linked List]
-13. [Detect Loop in Linked List]
-14. [Find length of loop]
-15. [Check if Linked List is palindrome - Stack Based solution]
-16. [Remove duplicate nodes from a sorted list]
-17. [Remove duplicate nodes from an unsorted list]
-18. [Pairwise swap elements in a linked list]
+8. [Print reverse of a list]
+9. [Search in Linked List]
+10. [Get Nth Node in a Linked List]
+11. [Get Nth Node from End]
+12. [Find Middle Node]
+13. [Number of times a key occurs in Linked List]
+14. [Detect Loop in Linked List]
+15. [Find length of loop]
+16. [Check if Linked List is palindrome - Stack Based solution]
+17. [Remove duplicate nodes from a sorted list]
+18. [Remove duplicate nodes from an unsorted list]
+19. [Pairwise swap elements in a linked list]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -39,3 +40,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Remove duplicate nodes from a sorted list]: https://github.com/chinchponkli/linkedlist/blob/master/removeDuplicatesFromSorted.py
 [Remove duplicate nodes from an unsorted list]: https://github.com/chinchponkli/linkedlist/blob/master/removeDuplicatesFromUnsorted.py
 [Pairwise swap elements in a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/pairwiseswapelements.py
+[Print reverse of a list]: https://github.com/chinchponkli/linkedlist/blob/3e2ccd9ee74f91737117b04acd24024b6b93af27/linkedlist.py
