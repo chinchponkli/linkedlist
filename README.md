@@ -17,6 +17,7 @@ LinkedLists and related Algorithmic Problems in Python
 13. [Detect Loop in Linked List]
 14. [Find length of loop]
 15. [Check if Linked List is palindrome - Stack Based solution]
+16. [Remove duplicate nodes from a sorted list]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -33,3 +34,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Detect Loop in Linked List]: https://github.com/chinchponkli/linkedlist/blob/master/detectloop.py
 [Find length of loop]: https://github.com/chinchponkli/linkedlist/blob/master/looplength.py
 [Check if Linked List is palindrome - Stack Based solution]: https://github.com/chinchponkli/linkedlist/blob/5e5bdeab4fe5bf9753dcbf9eb14a33c24d2a66e3/checkPalindrome.py
+[Remove duplicate nodes from a sorted list]: https://github.com/chinchponkli/linkedlist/blob/master/removeDuplicatesFromSorted.py
