@@ -29,6 +29,7 @@ LinkedLists and related Algorithmic Problems in Python
 25. [Segregate even and odd nodes in a linked list]
 26. [Reverse a linked list]
 27. [Check if Linked List is palindrome - List reversal based solution]
+28. [Find intersection point of two linked list - List reversal based solution]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -57,3 +58,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Segregate even and odd nodes in a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/segregateEvenOdd.py
 [Reverse a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/reverse.py
 [Check if Linked List is palindrome - List reversal based solution]: https://github.com/chinchponkli/linkedlist/blob/master/checkPalindrome.py
+[Find intersection point of two linked list - List reversal based solution]: https://github.com/chinchponkli/linkedlist/blob/master/findIntersectionNode.py
