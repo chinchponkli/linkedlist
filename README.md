@@ -35,6 +35,7 @@ LinkedLists and related Algorithmic Problems in Python
 31. [Reverse list in group of size k - II]
 32. [Reverse alternate k nodes in a list]
 33. [Alternate Odd and Even Nodes]
+34. [Delete alternate nodes from a linked list]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -69,3 +70,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Reverse list in group of size k - II]: https://github.com/chinchponkli/linkedlist/blob/master/reverseListInGroupOfGivenSize.py
 [Reverse alternate k nodes in a list]: https://github.com/chinchponkli/linkedlist/blob/master/reverseAlternateKNodes.py
 [Alternate Odd and Even Nodes]: https://github.com/chinchponkli/linkedlist/blob/master/alternateOddAndEvenNodes.py
+[Delete alternate nodes from a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/deleteAlternateNodes.py
