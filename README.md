@@ -38,7 +38,7 @@ LinkedLists and related Algorithmic Problems in Python
 34. [Delete alternate nodes from a linked list]
 35. [Alternate splitting of linked list]
 36. [Check if lists are identical]
-37. [Delete node if there is a greater element on right end side]
+37. [Delete node if there is a greater element on right side]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -76,4 +76,4 @@ LinkedLists and related Algorithmic Problems in Python
 [Delete alternate nodes from a linked list]: https://github.com/chinchponkli/linkedlist/blob/master/deleteAlternateNodes.py
 [Alternate splitting of linked list]: https://github.com/chinchponkli/linkedlist/blob/master/alternateSplitting.py
 [Check if lists are identical]: https://github.com/chinchponkli/linkedlist/blob/master/identicalLists.py
-[Delete node if there is a greater element on right end side]: https://github.com/chinchponkli/linkedlist/blob/master/deleteIfGreaterElementOnRight.py
+[Delete node if there is a greater element on right side]: https://github.com/chinchponkli/linkedlist/blob/master/deleteIfGreaterElementOnRight.py
