@@ -33,12 +33,48 @@ def checkPalindromeStackBased(node):
         current = current.next
     return True
 
+'''
+Approach 1 (Finding middle of list and reversing and checking and reversing again):
+1) If list is empty or has only one node return True.
+2) If number of nodes are even, reverse the list from midNode else reverse
+the list from midNode.next.
+3) Traverse the two segments and compare.
+4) Reverse the second segment again.
+Time complexity of above method is O(n), but it requires O(n) extra space.
+'''
+def checkPalindrome(node):
+    if node is None or node.next is None:
+        return True
+    fast, middle, preMiddle = node, node, None
+    l = 0
+    while fast is not None and fast.next is not None:
+        l += 2
+        fast, preMiddle, middle = fast.next.next, middle, middle.next
+    if fast is not None:
+        l += 1
+    r = reverse(middle)
+    revNode = r
+    while node and revNode:
+        if node.data != revNode.data:
+            preMiddle.next = reverse(r)
+            return False
+        node, revNode = node.next, revNode.next
+    preMiddle.next = reverse(r)
+    return True
+
+def reverse(node):
+    prev = None
+    while node:
+        node.next, prev, node = prev, node, node.next
+    return prev
+
 l = LinkedList()
-print checkPalindromeStackBased(l.head)
+print checkPalindrome(l.head)
 l.append(1)
-print checkPalindromeStackBased(l.head)
+print checkPalindrome(l.head)
 l.append(2)
-print checkPalindromeStackBased(l.head)
+l.append(3)
+print checkPalindrome(l.head)
 l.append(2)
 l.append(1)
-print checkPalindromeStackBased(l.head)
+print checkPalindrome(l.head)
