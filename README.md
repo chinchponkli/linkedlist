@@ -31,7 +31,8 @@ LinkedLists and related Algorithmic Problems in Python
 27. [Check if Linked List is palindrome - List reversal based solution]
 28. [Find intersection point of two linked list - List reversal based solution]
 29. [Merge two sorted lists]
-30. [Reverse list in group of size k]
+30. [Reverse list in group of size k - I]
+31. [Reverse list in group of size k - II]
 
 [Linked List - Description and Basic Implementation]: https://github.com/chinchponkli/linkedlist/blob/8cdb7f526063c82ff5fbcecf150b5e2dab94c197/linkedlist.py
 [Linked List Insertion]: https://github.com/chinchponkli/linkedlist/blob/3e39d90c22c7fede8a0b5d80e1803edc02715533/linkedlist.py
@@ -62,4 +63,5 @@ LinkedLists and related Algorithmic Problems in Python
 [Check if Linked List is palindrome - List reversal based solution]: https://github.com/chinchponkli/linkedlist/blob/master/checkPalindrome.py
 [Find intersection point of two linked list - List reversal based solution]: https://github.com/chinchponkli/linkedlist/blob/master/findIntersectionNode.py
 [Merge two sorted lists]: https://github.com/chinchponkli/linkedlist/blob/master/mergeSortedLists.py
-[Reverse list in group of size k]: https://github.com/chinchponkli/linkedlist/blob/079c7d2ecd4ac781fe8f64bb4e473dea696307db/reverseListInGroupOfGivenSize.py
+[Reverse list in group of size k - I]: https://github.com/chinchponkli/linkedlist/blob/079c7d2ecd4ac781fe8f64bb4e473dea696307db/reverseListInGroupOfGivenSize.py
+[Reverse list in group of size k - II]: https://github.com/chinchponkli/linkedlist/blob/master/reverseListInGroupOfGivenSize.py
