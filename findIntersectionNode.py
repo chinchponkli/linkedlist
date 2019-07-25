@@ -16,6 +16,7 @@ In the above diagram the two linked lists intersect at node 15.
 '''
 from linkedlist import Node
 from linkedlist import LinkedList
+from reverse import reverse
 
 '''
 Approach 1
@@ -43,6 +44,39 @@ def findIntersectionNode(a, b):
         nodeB = nodeB.next
     return None
 
+'''
+Approach 2:
+1) Let X be the length of the first linked list until intersection point.
+   Let Y be the length of the second linked list until the intersection point.
+   Let Z be the length of the linked list from the intersection point to End of
+   the linked list including the intersection node.
+   We Have
+           X + Z = C1;
+           Y + Z = C2;
+2) Reverse first linked list.
+3) Traverse Second linked list. Let C3 be the length of second list - 1.
+     Now we have
+        X + Y = C3
+     We have 3 linear equations. By solving them, we get
+       X = (C1 + C3 - C2)/2
+       Y = (C2 + C3 - C1)/2
+       Z = (C1 + C2 - C3)/2
+      WE GOT THE INTERSECTION POINT.
+4)  Reverse first linked list.
+'''
+def intersectionPoint(l1, l2):
+    c1 = l1.size()
+    c2 = l2.size()
+    reverse(l1)
+    c3 = l2.size() - 1
+    reverse(l1)
+    p = (c1 + c3 - c2) / 2
+    node = l1.head
+    while p > 0:
+        node = node.next
+        p -= 1
+    return node
+
 l1 = LinkedList()
 l1.append(3)
 l1.append(6)
@@ -54,5 +88,5 @@ l2 = LinkedList()
 l2.append(10)
 l2.head.next = l1.head.next.next.next
 
-intersectionNode = findIntersectionNode(l1, l2)
+intersectionNode = intersectionPoint(l1, l2)
 print intersectionNode.data if intersectionNode is not None else None
