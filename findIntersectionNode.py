@@ -37,7 +37,7 @@ def findIntersectionNode(a, b):
     while diff > 0:
         nodeA = nodeA.next
         diff -= 1
-    while nodeA is not None:
+    while nodeA:
         if nodeA == nodeB:
             return nodeA
         nodeA = nodeA.next
@@ -88,5 +88,5 @@ l2 = LinkedList()
 l2.append(10)
 l2.head.next = l1.head.next.next.next
 
-intersectionNode = intersectionPoint(l1, l2)
+intersectionNode = findIntersectionNode(l1, l2)
 print intersectionNode.data if intersectionNode is not None else None

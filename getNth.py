@@ -11,7 +11,7 @@ from linkedlist import Node
 from linkedlist import LinkedList
 
 def getNth(node, n):
-    while node is not None and n >= 0:
+    while node and n >= 0:
         if n == 0:
             return node
         node = node.next

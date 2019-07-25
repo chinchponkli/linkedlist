@@ -10,7 +10,7 @@ from linkedlist import Node
 
 def reverseAlternateKNodes(node, k, reverse):
     prev, current, count, next = None, node, 0, None
-    while current is not None and count < k:
+    while current and count < k:
         if reverse:
             next = current.next
             current.next = prev
@@ -20,10 +20,10 @@ def reverseAlternateKNodes(node, k, reverse):
             prev, current, next = current, current.next, current.next
             count += 1
     if reverse:
-        if next is not None:
+        if next:
             node.next = reverseAlternateKNodes(next, k, not reverse)
     else:
-        if prev is not None:
+        if prev:
             prev.next = reverseAlternateKNodes(next, k, not reverse)
     return prev if reverse else node
 

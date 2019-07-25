@@ -32,17 +32,17 @@ in the list.
 '''
 def segregateEvenOdd(l):
     last = l.head
-    while last is not None and last.next is not None:
+    while last and last.next:
         last = last.next
     firstOddNode, prev, current = None, None, l.head
-    while current is not None and current != firstOddNode:
+    while current and current != firstOddNode:
         if current.data % 2 == 0:
             prev = current
             current = current.next
         else:
-            if firstOddNode is None:
+            if not firstOddNode:
                 firstOddNode = current
-            if prev is None:
+            if not prev:
                 l.head = current.next
                 last.next = current
                 current.next = None

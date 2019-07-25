@@ -12,12 +12,12 @@ from linkedlist import LinkedList
 
 def getNthFromEnd(node, n):
     a, b = node, node
-    while a is not None and n > 0:
+    while a and n > 0:
         a = a.next
         n -= 1
-    if a is None or n < 0:
+    if not a or n < 0:
         return None
-    while a.next is not None:
+    while a.next:
         a, b = a.next, b.next
     return b
 

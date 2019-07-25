@@ -10,7 +10,7 @@ from linkedlist import LinkedList
 def removeDuplicates(node):
     prev = None
     s = set()
-    while node is not None:
+    while node:
         if node.data in s:
             prev.next = node.next
         else:

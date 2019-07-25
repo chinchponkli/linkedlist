@@ -11,7 +11,7 @@ from linkedlist import Node
 
 def reverse(l):
     prev, current = None, l.head
-    while current is not None:
+    while current:
         current.next, prev, current = prev, current, current.next
     l.head = prev
 

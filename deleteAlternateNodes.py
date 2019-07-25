@@ -8,7 +8,7 @@ from linkedlist import LinkedList
 from linkedlist import Node
 
 def deleteAlternateNodes(node):
-    while node is not None and node.next is not None:
+    while node and node.next:
         temp = node.next
         node.next = temp.next
         temp = None

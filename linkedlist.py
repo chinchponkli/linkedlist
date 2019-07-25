@@ -41,17 +41,17 @@ class LinkedList:
     # Inserts new node at the end of the list
     def append(self, data):
         newNode = Node(data)
-        if self.head is None:
+        if not self.head:
             self.head = newNode
         else:
             last = self.head
-            while last.next is not None:
+            while last.next:
                 last = last.next
             last.next = newNode
 
     # Inserts a new node after prevNode
     def insertAfter(self, prevNode, data):
-        if prevNode is None:
+        if not prevNode:
             return
         newNode = Node(data)
         newNode.next = prevNode.next
@@ -61,14 +61,14 @@ class LinkedList:
     def printList(self):
         print "head ->",
         current = self.head
-        while current is not None:
+        while current:
             print str(current.data) + " ->",
             current = current.next
         print "null"
 
     # Deletes the first node where key == node.data
     def deleteKey(self, key):
-        if self.head is None:
+        if not self.head:
             return
         if self.head.data == key:
             temp = self.head
@@ -77,18 +77,18 @@ class LinkedList:
         else:
             prev = self.head
             temp = prev.next
-            while temp is not None:
+            while temp:
                 if key == temp.data:
                     break
                 prev = temp
                 temp = temp.next
-            if temp is not None:
+            if temp:
                 prev.next = temp.next
                 temp = None
 
     # Deletes the node at position in zero-indexed list
     def deleteAt(self, position):
-        if position < 0 or self.head is None:
+        if position < 0 or not self.head:
             return
         if position == 0:
             temp = self.head
@@ -98,25 +98,25 @@ class LinkedList:
             prev = self.head
             temp = prev.next
             count = 1
-            while temp is not None:
+            while temp:
                 if count == position:
                     break
                 prev = temp
                 temp = temp.next
                 count += 1
-            if temp is not None:
+            if temp:
                 prev.next = temp.next
                 temp = None
 
     # delete all nodes in the list
     def delete(self):
-        while self.head is not None:
+        while self.head:
             self.deleteAt(0)
 
     def size(self):
         count = 0
         current = self.head
-        while current is not None:
+        while current:
             count += 1
             current = current.next
         return count
@@ -127,7 +127,7 @@ class LinkedList:
         print "<- head"
 
     def printReverseUtil(self, node):
-        if node is not None:
+        if node:
             self.printReverseUtil(node.next)
             print "<-",
             print node.data,

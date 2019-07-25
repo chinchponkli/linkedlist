@@ -22,14 +22,13 @@ Time complexity of above method is O(n), but it requires O(n) extra space.
 def checkPalindromeStackBased(node):
     s = []
     current = node
-    while current is not None:
+    while current:
         s.append(current.data)
         current = current.next
     current = node
-    while current is not None:
+    while current:
         if current.data != s.pop():
             return False
-        s.append(current.data)
         current = current.next
     return True
 
@@ -47,10 +46,10 @@ def checkPalindrome(node):
         return True
     fast, middle, preMiddle = node, node, None
     l = 0
-    while fast is not None and fast.next is not None:
+    while fast and fast.next:
         l += 2
         fast, preMiddle, middle = fast.next.next, middle, middle.next
-    if fast is not None:
+    if fast:
         l += 1
     r = reverse(middle)
     revNode = r
@@ -77,4 +76,4 @@ l.append(3)
 print checkPalindrome(l.head)
 l.append(2)
 l.append(1)
-print checkPalindrome(l.head)
+print checkPalindromeStackBased(l.head)

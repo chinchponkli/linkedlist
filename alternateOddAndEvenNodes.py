@@ -26,16 +26,16 @@ Approach:
 '''
 def alternateOddAndEvenNodes(l):
     last = l.head
-    while last is not None and last.next is not None:
+    while last and last.next:
         last = last.next
     current, prev, firstOddNode = l.head, None, None
-    while current is not None and current != firstOddNode:
+    while current and current != firstOddNode:
         if current.data % 2 == 0:
             prev, current = current, current.next
         else:
-            if firstOddNode is None:
+            if not firstOddNode:
                 firstOddNode = current
-            if prev is not None:
+            if prev:
                 prev.next = current.next
                 last.next = current
                 current.next = None
@@ -46,11 +46,11 @@ def alternateOddAndEvenNodes(l):
                 current.next = None
                 current = l.head
             last = last.next
-    if prev is None:
+    if not prev:
         return
     prev.next = None
     current, oddNode = l.head, firstOddNode
-    while oddNode is not None:
+    while oddNode:
         current.next, oddNode.next, current, oddNode = oddNode, current.next, current.next, oddNode.next
 
 l = LinkedList()

@@ -8,7 +8,7 @@ from linkedlist import LinkedList
 
 def frequency(node, key):
     count = 0
-    while node is not None:
+    while node:
         if node.data == key:
             count += 1
         node = node.next

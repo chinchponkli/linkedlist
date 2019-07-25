@@ -10,7 +10,7 @@ from linkedlist import LinkedList
 
 def hasLoop(node):
     fast, slow = node, node
-    while fast is not None and fast.next is not None:
+    while fast and fast.next:
         fast = fast.next.next
         slow = slow.next
         if fast == slow:

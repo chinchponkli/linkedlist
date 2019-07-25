@@ -12,7 +12,7 @@ from linkedlist import LinkedList
 
 def reverse(node, k):
     prev, current, count = None, node, 0
-    while current is not None and count < k:
+    while current and count < k:
         next = current.next
         current.next = prev
         prev, current = current, next

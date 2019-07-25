@@ -10,19 +10,19 @@ from linkedlist import LinkedList
 
 def moveLastToFront(l):
     secondLast, last = None, l.head
-    while last is not None and last.next is not None:
+    while last and last.next:
         secondLast = last
         last = last.next
-    if secondLast is not None:
+    if secondLast:
         secondLast.next = None
         last.next = l.head
         l.head = last
 
 def moveFrontToLast(l):
     last = l.head
-    while last is not None and last.next is not None:
+    while last and last.next:
         last = last.next
-    if last is not None:
+    if last:
         last.next = l.head
         l.head = l.head.next
         last.next.next = None

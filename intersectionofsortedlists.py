@@ -12,7 +12,7 @@ from linkedlist import LinkedList
 
 def intersection(a, b):
     l = LinkedList()
-    while a is not None and b is not None:
+    while a and b:
         if a.data == b.data:
             l.append(a.data)
             a, b = a.next, b.next

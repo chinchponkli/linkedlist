@@ -7,9 +7,9 @@ from linkedlist import LinkedList
 from linkedlist import Node
 
 def areIdentical(a, b):
-    if a is not None and b is not None:
+    if a and b:
         return a.data == b.data and areIdentical(a.next, b.next)
-    elif a is not None or b is not None:
+    elif a or b:
         return False
     else:
         return True

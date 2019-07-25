@@ -12,10 +12,10 @@ def alternateSplit(l):
     l1 = LinkedList()
     lastL1 = None
     current = l.head
-    while current is not None and current.next is not None:
+    while current and current.next:
         next = current.next
         current.next = next.next
-        if l1.head is None:
+        if not l1.head:
             l1.head = next
         else:
             last.next = next

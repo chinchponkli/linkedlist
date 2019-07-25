@@ -12,7 +12,7 @@ from linkedlist import LinkedList
 
 def swapNodes(l, x, y):
     current, prev, prevX, prevY, nodeX, nodeY = l.head, None, None, None, None, None
-    while current is not None:
+    while current:
         if current.data == x:
             prevX = prev
             nodeX = current
@@ -23,10 +23,10 @@ def swapNodes(l, x, y):
         current = current.next
 
     # case: nodeX is head
-    if prevX is None:
+    if not prevX:
         l.head, nodeY.next, prevY.next, nodeX.next = nodeY, nodeX.next, nodeX, nodeY.next
-    # case: nodeY is head    
-    elif prevY is None:
+    # case: nodeY is head
+    elif not prevY:
         l.head, nodeX.next, prevX.next, nodeY.next = nodeX, nodeY.next, nodeY, nodeX.next
     # both are internal nodes
     else:
